@@ -22,7 +22,7 @@ story_generator.reset()  # clear the story generator
 # base rule
 story_generator.addrule('STORY', {"*INTRODUCTION*. *RISE*. *CRISIS*. *CLIMAX*. *ENDING*."})
 
-story_generator.addrule('INTRODUCTION', {"*TIME_STORY*, there was a *CHARACTER* that *VERB* to be a *DIRECT_OBJECT*."})
+story_generator.addrule('INTRODUCTION', {"*TIME_STORY*, there was a *CHARACTER* that *VERB* to be *DIRECT_OBJECT*."})
 
 story_generator.addrule('RISE', {"For that, they need to go to *PLACE* and find *PERSON* to help accomplish their goal."
                                  " During the journey, they learn how to *ABILITY*, which lead to *DISEASE*"})
@@ -142,7 +142,12 @@ story_generator.addrule('DIRECT_OBJECT', {"a book",
                                           "a relaxing massage",
                                           "a shiny trophy",
                                           "a mysterious envelope",
-                                          "a beautiful flower"})
+                                          "a beautiful flower",
+                                          "a good person",
+                                          "a villain",
+                                          "a teacher",
+                                          "a dog",
+                                          "a banana"})
 
 story_generator.addrule('PLACE', {"Tokyo", "The Shire", "Paris", "Neverland", "The Moon", "Narnia", "Atlantis", "Rome",
                                   "Hogwarts", "The Amazon Rainforest", "Mars", "The Bermuda Triangle", "Mount Everest",
